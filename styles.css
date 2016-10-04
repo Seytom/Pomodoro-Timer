@@ -1,0 +1,42 @@
+body{
+    background-image:url("https://i.imgur.com/KCGSLWb.jpg");
+    background-size: cover;
+}
+
+.inline {
+  display: inline-block;
+  margin: 5px;
+}
+
+#wrapper{
+  display:block;
+  width:350px;
+}
+
+#timer {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  background-color: orange;
+  border: solid 3px green;
+  border-radius: 100%;
+  display:block;
+}
+
+#timerType {
+  padding-top: 50px;
+}
+
+h1#timerType {
+  margin: 0;
+}
+
+button {
+  background-color: white;
+  margin: .2rem;
+  margin-top: 10px;
+}
+
+span {
+  margin: .2rem;
+}
