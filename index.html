@@ -13,28 +13,27 @@
             {
                 font-size: 1.05em !important;
             }
-        </style
-            
+        </style>            
     </head>
 <body>
 <div class="container text-center">
-  <div class="row text-center" id="row">
+  <div class="row text-center" >
     <div class="col-md-12">
-      <h1>Pomodoro Timer</h1>
-      <div>
-      <div class="inline"> Break Length
-        <br>
-        <button id="breakPlus">+</button><span id="breakLength"> 5</span>
-        <button id="breakMinus">-</button>
-      </div>
-      <div class="inline">Session Length
-        <p>
-          <button id="sessionPlus">+</button> <span id="sessionLength">25</span>
-          <button id="sessionMinus">-</button>
-        </p>
-      </div>
-
-    </div>
+      
+      <div id="controls">
+            <h1>Pomodoro Timer</h1>
+          <div class="inline"> Break Length
+            <br>
+            <button id="breakPlus">+</button><span id="breakLength"> 5</span>
+            <button id="breakMinus">-</button>
+          </div>
+          <div class="inline">Session Length
+            <p>
+              <button id="sessionPlus">+</button> <span id="sessionLength">25</span>
+              <button id="sessionMinus">-</button>
+            </p>
+          </div>
+        </div>
     <div>
     <div id="timer">
       <h1 id="timerType" class="text-center">Session</h1>
@@ -49,7 +48,8 @@
 </div>
 
 
-<audio id='mySound' src='https://upload.wikimedia.org/wikipedia/commons/6/6f/Cello_Live_Performance_John_Michel_Tchaikovsky_Violin_Concerto_3rd_MVT_applaused_cut.ogg' />
-<script src="http://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<audio id='mySound' src="resources/vendors/audio/subtle-gong.aif" />
+<audio id='mySound2' src="resources/vendors/audio/healing-gong.mp3" />
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
         <script src="app.js"></script>
         </body>
