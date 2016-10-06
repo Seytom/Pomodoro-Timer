@@ -29,14 +29,14 @@ function reduceTimer() {
       timer = breakLength;
       $('#timerType').text('Break');
       timerSession = false;
-      playSound('mySound');
+      playSound('mySound2');
       displayTime();
 
     } else {
       timer = sessionLength;
       $('#timerType').text('Session');
       timerSession = true;
-      stopSound('mySound');
+      playSound('mySound2');
       displayTime();
     }
     // animateBackground(timer);
