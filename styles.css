@@ -3,10 +3,17 @@ body{
     background-size: cover;
 }
 
+#controls{
+   color:yellow; 
+}
+#controls button{
+    color:chocolate;
+}
+
 .inline {
   display: inline-block;
   margin: 5px;
-}
+  }
 
 #wrapper{
   display:block;
@@ -17,8 +24,9 @@ body{
   width: 250px;
   height: 250px;
   margin: auto;
+    color:darkcyan;
   background-color: orange;
-  border: solid 3px green;
+  border: solid 3px cyan;
   border-radius: 100%;
   display:block;
 }
